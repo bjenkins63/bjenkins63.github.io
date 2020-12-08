@@ -117,3 +117,9 @@ color: #ffffff;
 display: inline-block;
 margin: 0 5px;
 }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
