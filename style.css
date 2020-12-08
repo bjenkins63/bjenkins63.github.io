@@ -10,7 +10,7 @@
 
   img {
     max-height: 400px;
-    float: right;
+    float: left;
       }
 
   #fixed {
@@ -31,13 +31,13 @@
   
   h1 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 24px;
     line-height: 45px;
   }
   
   p {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
   }
   
@@ -59,4 +59,58 @@
     text-align: center;
     background: #999;
   }
-  
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('../img/code.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.details {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.details > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.details > h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+}
+
+#footer a {
+color: #ffffff;
+      }
+
+.social > li {
+display: inline-block;
+margin: 0 5px;
+}
